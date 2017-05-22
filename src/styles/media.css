@@ -1,0 +1,288 @@
+/*--------------Middle Devices----------------*/
+@media (min-width: 1089px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1088px) {
+    .development li {
+        max-width: 280px;
+    }
+
+    .our-team li .foto {
+        width: 220px;
+    }
+}
+
+/*-----------Small Devices--------------------------*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .welcome-slogan h2 {
+        font-size: 38px;
+    }
+
+    .welcome-slogan p {
+        font-size: 17px;
+    }
+    .welcome-section .scroll-icon {
+        bottom: 5%;
+    }
+
+    .btn {
+        width: 160px;
+    }
+
+    .subscribe-section {
+        font-size: 12px;
+    }
+
+    .subscribe-form input[type="email"] {
+        min-width: 450px;
+    }
+
+    .subscribe-form input[type="submit"] {
+        padding: 0 50px 0;
+    }
+
+    .our-works header p {
+        padding: 0 100px;
+    }
+
+    .our-team header {
+        padding: 0 100px;
+    }
+
+    .carousel-inner > .item img {
+        margin-bottom: 0;
+    }
+
+    .our-team .social {
+        padding-bottom: 10px;
+    }
+
+    .our-team li .name {
+        padding: 15px 0;
+    }
+
+    .our-team .carousel-inner .item li {
+        margin-bottom: 50px;
+    }
+
+    .our-team ul {
+        padding: 75px 0 100px;
+    }
+
+    .carousel-indicators {
+        bottom: 5%;
+    }
+
+    .comment-section header {
+        padding: 50px 150px;
+    }
+
+    .comment-form .text-field {
+        float: none;
+    }
+
+    .comment-form .email {
+        float: none;
+    }
+
+    .comment-form input[type="email"] {
+        min-width: 100%;
+        margin-bottom: 15px;
+
+    }
+
+    .comment-form input[type="text"] {
+        min-width: 100%;
+        margin-left: 0;
+    }
+
+    .comment-form textarea {
+        min-width: 100%;
+    }
+}
+
+/*-------Extra Small Devices-------------------*/
+
+@media (max-width: 767px) {
+    .welcome-slogan h2 {
+        font-size: 30px;
+    }
+
+    .welcome-slogan {
+        width: 85%;
+    }
+
+    .welcome-slogan p {
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+
+    .btn {
+        width: 100px;
+        line-height: 25px;
+        padding: 6px 8px;
+    }
+
+    .subscribe-section {
+        font-size: 12px;
+    }
+
+    .development li {
+        margin: 0 35px 10px;
+    }
+
+    .subscribe-form input[type="email"] {
+        line-height: 30px;
+        min-width: 295px;
+        padding: 0 40px 0 25px;
+        margin: 50px 0 20px;
+    }
+
+    .subscribe-form input[type="submit"] {
+        height: 50px;
+        padding: 0 45px;
+        margin-bottom: 10px;
+    }
+
+    .our-works header p {
+        padding: 0 25px;
+    }
+
+    .our-works .btn-show {
+        margin: 50px 0 50px;
+    }
+
+    .carousel .slider-caption p:first-child {
+        font-size: 17px;
+        padding: 0 10px 20px;
+    }
+
+    .our-team header {
+        padding: 0 25px;
+        margin: 0 auto;
+    }
+
+    .carousel-inner > .item img {
+        margin-bottom: 0;
+    }
+
+    .our-team .social {
+        padding-bottom: 10px;
+    }
+
+    .our-team li .name {
+        padding: 15px 0;
+    }
+
+    .our-team .carousel-inner .item li {
+        margin-bottom: 50px;
+    }
+
+    .our-team ul {
+        padding: 75px 0 100px;
+    }
+
+    .carousel-indicators {
+        bottom: 3%;
+    }
+
+    .carousel-indicators li {
+        margin: 0 5px;
+    }
+
+    .comment-section header {
+        padding: 30px 25px;
+    }
+
+    .comment-form input[type="email"] {
+        min-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .comment-form input[type="text"] {
+        min-width: 100%;
+    }
+
+    .comment-form textarea {
+        min-width: 100%;
+    }
+
+    .form-btn {
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    .comment-section .social li a {
+        margin-left: 9px;
+    }
+
+    .comment-section .social ul {
+        float: none;
+    }
+
+    .comment-section .social ul li {
+        float: none;
+        display: inline-block;
+    }
+
+    .comment-form .text-field {
+        float: none;
+    }
+
+    .comment-form .email {
+        float: none;
+    }
+
+    .comment-form input[type="email"] {
+        min-width: 100%;
+    }
+
+    .comment-form input[type="text"] {
+        min-width: 100%;
+        margin-left: 0;
+    }
+
+    .comment-form textarea {
+        min-width: 100%;
+    }
+
+    footer p {
+        line-height: 45px;
+    }
+
+}
+
+@media (max-height: 420px) {
+    .menu-list li {
+        margin-top: 15px;
+        font-size: 23px;
+    }
+
+    .welcome-section .scroll-icon {
+        left: 90%;
+    }
+
+    .subscribe-form input[type="submit"] {
+        height: 30px;
+    }
+
+    .comment-form input[type="email"] {
+        min-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .comment-form input[type="text"] {
+        min-width: 100%;
+    }
+
+    .comment-form textarea {
+        min-width: 100%;
+    }
+
+    .comment-section .social ul li {
+        float: none;
+        display: inline-block;
+    }
+}
