@@ -23,6 +23,7 @@
     .welcome-slogan p {
         font-size: 17px;
     }
+
     .welcome-section .scroll-icon {
         bottom: 5%;
     }
@@ -119,6 +120,15 @@
         margin-bottom: 30px;
     }
 
+    .menu-wrap {
+        width: 150px;
+    }
+
+    .menu-list li {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
     .btn {
         width: 100px;
         line-height: 25px;
@@ -129,6 +139,10 @@
         font-size: 12px;
     }
 
+    .development-section {
+        padding: 50px 0 60px 0;
+    }
+
     .development li {
         margin: 0 35px 10px;
     }
@@ -137,7 +151,7 @@
         line-height: 30px;
         min-width: 295px;
         padding: 0 40px 0 25px;
-        margin: 50px 0 20px;
+        margin: 50px 0;
     }
 
     .subscribe-form input[type="submit"] {
@@ -152,6 +166,10 @@
 
     .our-works .btn-show {
         margin: 50px 0 50px;
+    }
+
+    .our-works .imac, .our-works .office, .our-works .business, .our-works .ipad, .our-works .ipad, .our-works .macbook {
+        background-position: 50%;
     }
 
     .carousel .slider-caption p:first-child {
@@ -189,6 +207,10 @@
     }
 
     .carousel-indicators li {
+        margin: 0 5px;
+    }
+
+    .carousel-indicators .active {
         margin: 0 5px;
     }
 
@@ -252,11 +274,15 @@
         line-height: 45px;
     }
 
+    .comment-section .comment-form {
+        padding-bottom: 60px;
+    }
+
 }
 
 @media (max-height: 420px) {
     .menu-list li {
-        margin-top: 15px;
+        margin: 0;
         font-size: 23px;
     }
 
